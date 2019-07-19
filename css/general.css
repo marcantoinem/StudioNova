@@ -1,0 +1,116 @@
+#toppanel {
+  background-color:#2d2d2d;
+  position:fixed;
+  top:0px;
+  left:29%;
+  width:350px;
+  height:42px;
+  margin:0 auto;
+  z-index: 20;
+  border-radius: 0px 0px 40px 40px;
+  padding: 0px 40px;
+  text-align: center;
+}
+
+#cash {
+  padding:5px 20px;
+  border-radius: 20px;
+  background-color: #FFD700;
+  color:#000000;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#vue {
+  padding:5px 20px;
+  border-radius: 20px;
+  background-color: #6495ED;
+  color:#000000;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#popularité {
+  padding:5px 20px;
+  border-radius: 20px;
+  background-color: #32CD32;
+  color:#000000;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+#sidepanel {
+  background-color:#2d2d2d;
+  position:fixed;
+  left:0px;
+  top:0px;
+  width:42px;
+  height:100%;
+  transition: width 0.15s;
+  z-index: 20;
+}
+
+#sidepanel:hover {
+  width: 142px;
+}
+
+.sidebutton {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 42px;
+}
+
+.sidebutton:hover {
+  width: 100%;
+  background: #424242;
+}
+
+.sideico {
+  width:32px;
+  height:32px;
+  padding: 5px;
+  transition: 0.1s linear;
+}
+
+.sidetext {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 14px;
+  display: none;
+}
+
+#sidepanel:hover .sidebutton .sidetext {
+  display: inline-block;
+}
+
+.sidebutton:hover .sidetext{
+  color: #ffffff;
+}
+
+.sidebutton:hover .sideico{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+body {
+  background: #424242;
+}
+
+#content {
+  position: fixed;
+  top: 42px;
+  left:42px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+a {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+  color: #ffffff;
+}
