@@ -1,0 +1,11 @@
+{
+  "name": "StudioNova",
+  "version": "0.2.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^5.0.7"
+  }
+}

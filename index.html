@@ -2,17 +2,30 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Le journal</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>Bureau</title>
+        <link rel="stylesheet" href="css/general.css" />
+        <script src="js/data.js"></script>
     </head>
     <body>
-      <div id="sidepanel">
-        <a id="Options"><div class="sidebutton"><img src="test.png" alt="Options" class="sideico"><p class="sidetext">Options</p></div></a>
-        <a id="Employés"><div class="sidebutton"><img src="test.png" alt="Employés" class="sideico"><p class="sidetext">Employés</p></div></a>
-        <a id="Influence"><div class="sidebutton"><img src="test.png" alt="Influence" class="sideico"><p class="sidetext">Influence</p></div></a>
-        <a id="Recherche"><div class="sidebutton"><img src="test.png" alt="Recherche" class="sideico"><p class="sidetext">Recherche</p></div></a>
-        <a id="Journal"><div class="sidebutton"><img src="test.png" alt="Journal" class="sideico"><p class="sidetext">Journal</p></div></a>
-        <a id="Statistique"><div class="sidebutton"><img src="test.png" alt="Statistique" class="sideico"><p class="sidetext">Statistique</p></div></a>
+      <script src="js/data.js"></script>
+      <div id="toppanel">
+        <div class="topsection">
+          <a id="cash">0 💰</a>
+          <a id="vue">0 👁</a>
+          <a id="popularité">0 😃</a>
+        </div>
       </div>
+      <div id="sidepanel">
+        <a class="sidebutton" href="bureau.html" target="content"><img src="images/test.png" alt="Bureau" class="sideico"><p class="sidetext">Bureau</p></a>
+        <a class="sidebutton" href="ressources.html" target="content"><img src="images/test.png" alt="Ressources" class="sideico"><p class="sidetext">Ressources</p></a>
+        <a class="sidebutton" href="employés.html" target="content"><img src="images/personnel.png" alt="Employés" class="sideico"><p class="sidetext">Employés</p></a>
+        <a class="sidebutton" href="plan.html" target="content"><img src="images/test.png" alt="Plan" class="sideico"><p class="sidetext">Plan</p></a>
+        <a class="sidebutton" href="influence.html" target="content"><img src="images/test.png" alt="Influence" class="sideico"><p class="sidetext">Influence</p></a>
+        <a class="sidebutton" href="recherche.html" target="content"><img src="images/recherche.png" alt="Recherche" class="sideico"><p class="sidetext">Recherche</p></a>
+        <a class="sidebutton" href="statistiques.html" target="content"><img src="images/test.png" alt="Statistiques" class="sideico"><p class="sidetext">Statistiques</p></a>
+        <a class="sidebutton" href="options.html" target="content"><img src="images/option.png" alt="Options" class="sideico"><p class="sidetext">Options</p></a>
+        <a class="sidebutton" onclick="save();"><img src="images/test.png" alt="Options" class="sideico"><p class="sidetext">Sauvegarder</p></a>
+      </div>
+        <iframe id="content" name="content" src="bureau.html"></iframe>
     </body>
 </html>
